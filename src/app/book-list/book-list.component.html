@@ -1,0 +1,4 @@
+<div class="ui middle aligned selection divided list">
+  <bm-book-list-item *ngFor="let book of books" [book]="book" [routerLink]="book.isbn" class="item"></bm-book-list-item>
+  <button type="button" name="button" class="ui white button" (click)="restoreList()">Liste zurücksetzen</button>
+</div>
